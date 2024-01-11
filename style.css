@@ -19,3 +19,15 @@ html {
   transform: translate(-50%, -50%);
   z-index: 10;
 }
+
+.page3-hero-right-img {
+  background-image: url("https://aquadev.site/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fblockchain2.437dc116.jpg&w=1920&q=75");
+  background-size: cover;
+  background-position: center;
+}
+
+.page4-hero-left-img {
+  background-image: url("https://aquadev.site/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcover2.7b19cdc9.png&w=3840&q=75");
+  background-size: cover;
+  background-position: center;
+}
