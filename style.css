@@ -31,3 +31,22 @@ html {
   background-size: cover;
   background-position: center;
 }
+
+.page6-div > h2 {
+  position: relative;
+}
+
+.page6-div > h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 10%;
+  background-color: black;
+  height: 8px;
+  width: 0%;
+  transition: all ease 0.5s;
+}
+
+.page6-div > h2:hover::after {
+  width: 100%;
+}
